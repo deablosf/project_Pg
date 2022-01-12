@@ -24,6 +24,7 @@
     width: 90vw;
     display: flex; 
     justify-content: center;
+    flex-direction: column;
 }
 
 #broughtBy {
@@ -33,7 +34,30 @@
 
 #tagLine {
     text-align: center;
-    width: 80vw;
     font-weight: 500;
     font-size: 18px;
+}
+
+#summary {
+    font-size: 18px;
+}
+
+#splashIm {
+    text-align: center;
+    font-size: 300px;
+    font-weight: 800;
+
+}
+
+
+
+
+/* *********  CLASS SECTION  ************* */
+
+
+
+.chapterTitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
 }
