@@ -1,5 +1,11 @@
 #mainBack {
     background-color: indianred;
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
+}
+
+#titleMonkey {
+    color: grey;
+    height: 10vh;
+    width: 10vw;
 }
