@@ -1,11 +1,14 @@
 #mainBack {
     background-color: indianred;
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
+    display: flex;
 }
 
 #titleWrap {
-    background-color: chocolate;
+    background-color: forestgreen;
     height: 10vh;
-    width: 10vw;
+    width: 30vw;
+    font-size: 30px;
+    justify-content: center;
 }
