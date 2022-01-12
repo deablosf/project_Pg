@@ -8,7 +8,15 @@
 
 #titleWrap {
     background-color: forestgreen;
+    margin-top: 10vh;
     height: 10vh;
     width: 30vw;
     font-size: 30px;
+    text-align: center;
+}
+
+#contentWrap {
+    background-color: cyan;
+    height: 50vh;
+    width: 80vw;
 }
