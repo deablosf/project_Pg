@@ -1,0 +1,11 @@
+#mainBack {
+    background-color: indianred;
+    height: 50vh;
+    width: 100vw;
+}
+
+#titleWrap {
+    background-color: chocolate;
+    height: 10vh;
+    width: 10vw;
+}
