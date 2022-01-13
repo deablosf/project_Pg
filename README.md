@@ -5,10 +5,12 @@ Title centered, now lets set up content boxes.
 Main content box made, looking good so far.
 Going to start populating the page to see how it looks and what changes need to be made.
 Undertitle: Powered by the B+ System. (Done)
+
 SECTION 1: Synopsis
 Tagline under title: The superman is real sentence. (Done)
 Undertagline: Followed by a brakedown of the now and the work of the cookie jar. It ends with the fact that someone has initiated an old secret government project called Powerpunk.
 Spash Image!
+
 SECTION 2 THe World
 
 SECTION 3 You

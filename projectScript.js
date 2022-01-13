@@ -1,0 +1,1 @@
+const eximList = ["Amalgom", "Cerbo", "Kin", "Proteans", "Qaurk"]
