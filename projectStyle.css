@@ -10,7 +10,7 @@
 
 #titleWrap {
     background-color: forestgreen;
-    margin-top: -60vh;
+    margin-top: -50vh;
     height: 10vh;
     width: 30vw;
     font-size: 30px;
@@ -38,8 +38,9 @@
     font-size: 18px;
 }
 
-#summary {
-    font-size: 18px;
+#eximButtonsWrap {
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -60,4 +61,16 @@
     font-size: 300px;
     font-weight: 800;
 
+}
+
+.summary {
+    font-size: 18px;
+}
+
+.eximbuttons {
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: underline;
 }
