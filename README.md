@@ -19,4 +19,4 @@ SECTION 3 You
 Will now build the functions to allow the visitors to click and see the differnt classifications and later on the powers.
 
 SECTION 4: The City
-Will now build the functions to allow the visitors to click and see the differnt Boroughs and later on important NPCs in those boroughs.
+Will now build the functions to allow the visitors to click and see the differnt Boroughs and later on important NPCs in those boroughs. map
