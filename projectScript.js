@@ -19,6 +19,7 @@ const boroughDetails = {
 const eximDetailsHtml = document.getElementById('eximDetails');
 const boroughDetailsHtml = document.getElementById('boroughDetails');
 const eximClassHtml = document.getElementById('eximButtonsWrap');
+const theCityImHtml = document.getElementById('theCityIm');
 
 const eximDetschanger = (z) => {
     eximDetailsHtml.innerText = eximDetails[z]
@@ -34,5 +35,7 @@ const eximDetschanger = (z) => {
         ).join('');
         console.log("I'm on")
  }
+
+ 
 
  Classification()
