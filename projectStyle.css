@@ -1,6 +1,6 @@
 #mainBack {
     background-color: indianred;
-    height: 200vh;
+    /* height: 200vh; */
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 
 #titleWrap {
     background-color: forestgreen;
-    margin-top: -50vh;
+    margin-top: 10vh;
     height: 10vh;
     width: 30vw;
     font-size: 30px;
@@ -43,6 +43,12 @@
     justify-content: space-around;
 }
 
+#theCityIm {
+    background: url(/assets/5_Boroughs_Labels_New_York_City_Map_Julius_Schorzman.png);
+    background-size: 500px 500px;
+    height: 500px;
+    width: 500px;
+}
 
 
 
