@@ -48,10 +48,46 @@
     background-size: 500px 500px;
     height: 500px;
     width: 500px;
-    grid-auto-columns: 50px;
-    grid-auto-rows: 50px;
+    display: grid;
+    grid-auto-columns: 10%;
+    grid-auto-rows: 10%;
 }
 
+#bronx {
+    grid-column: 7;
+    grid-row: 1;
+    height: 140px;
+    width: 100px;
+}
+
+#brooklyn {
+    grid-column: 5;
+    grid-row: 6;
+    height: 140px;
+    width: 120px;
+}
+
+#manhattan {
+    grid-column: 5 / 7;
+    grid-row: 3;
+    height: 140px;
+    width: 40px;
+    justify-self: center;
+}
+
+#queens {
+    grid-column: 8;
+    grid-row: 4;
+    height: 140px;
+    width: 120px;
+}
+
+#staten {
+    grid-column: 2;
+    grid-row: 7;
+    height: 140px;
+    width: 120px;
+}
 
 
 /* *********  CLASS SECTION  ************* */
@@ -83,6 +119,7 @@
     text-decoration: underline;
 }
 
-.boroughButtons {
-    
-}
+/* .boroughButtons {
+    background: none;
+    border: none;
+} */
