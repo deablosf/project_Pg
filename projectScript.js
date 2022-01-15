@@ -3,7 +3,7 @@ const eximList = ["Amalgom", "Cerbo", "Kin", "Protean", "Quark"]
 const eximDetails = {
     Amalgom: {
         text: "They got all the flavors but a stranger!",
-        image: ""
+        image: "(/assets/Amalgoms.jpg)"
     },
     Cerbo: {
         text: "They brains scream at you, till you cry!",
