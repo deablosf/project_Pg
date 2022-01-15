@@ -195,7 +195,18 @@
     margin-right: 5vw;
 }
 
+.eximbuttons:hover {
+    font-size: 20px;
+    background: -webkit-linear-gradient(left, rgb(139,77,149), rgba(213,1,15,255), rgba(255,144,6,255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .boroughButtons {
     background: none;
     border: none;
 }
+
+
+
+/* *********  ANIMATION SECTION  ************* */
