@@ -33,10 +33,12 @@ const boroughDetails = {
     Staten: "No ..."
 }
 
-const eximDetailsHtml = document.getElementById('eximDetails');
-const boroughDetailsHtml = document.getElementById('boroughDetails');
 const eximClassHtml = document.getElementById('eximButtonsWrap');
+const eximDetailsHtml = document.getElementById('eximDetails');
+const eximImageHtml = document.getElementById('eximIm');
 const theCityImHtml = document.getElementById('theCityIm');
+const boroughDetailsHtml = document.getElementById('boroughDetails');
+
 
 const eximDetschanger = (z) => {
     eximDetailsHtml.innerText = eximDetails[z].text
