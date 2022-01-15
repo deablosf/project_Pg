@@ -56,36 +56,94 @@
 #bronx {
     grid-column: 7;
     grid-row: 1;
-    height: 140px;
+    height: 135px;
     width: 100px;
 }
 
-#brooklyn {
-    grid-column: 5;
-    grid-row: 6;
+#brooklyn1 {
+    grid-column: 5 / 7;
+    grid-row: 6 / 8;
     height: 140px;
-    width: 120px;
+    width: 100px;
+    justify-self: center;
 }
 
-#manhattan {
+#brooklyn2 {
+    grid-column: 7;
+    grid-row: 6;
+    height: 150px;
+    width: 50px;
+}
+
+#brooklyn3 {
+    grid-column: 6;
+    grid-row: 5;
+    margin-top: 14px;
+    height: 35px;
+    width: 40px;
+    justify-self: center;
+    align-self: center;
+}
+
+#manhattan1 {
     grid-column: 5 / 7;
     grid-row: 3;
-    height: 140px;
+    height: 100px;
     width: 40px;
     justify-self: center;
 }
 
-#queens {
+#manhattan2 {
+    grid-column: 5;
+    grid-row: 4;
+    height: 96px;
+    width: 40px;
+    justify-self: end;
+}
+
+#manhattan3 {
+    margin-left: 10px;
+    grid-column: 6;
+    grid-row: 2;
+    height: 110px;
+    width: 25px;
+    justify-self: center;
+}
+
+#queens1 {
     grid-column: 8;
     grid-row: 4;
+    height: 230px;
+    width: 120px;
+}
+
+#queens2 {
+    grid-column: 7;
+    grid-row: 4;
+    height: 100px;
+    width: 50px;
+}
+
+#queens3 {
+    grid-column: 6;
+    grid-row: 4;
+    height: 35px;
+    width: 30px;
+    justify-self: end;
+    align-self: flex-end;
+}
+
+#staten1 {
+    grid-column: 2;
+    grid-row: 7;
     height: 140px;
     width: 120px;
 }
 
-#staten {
-    grid-column: 2;
-    grid-row: 7;
-    height: 140px;
+#staten2 {
+    grid-column: 1;
+    grid-row: 9;
+    height: 90px;
     width: 120px;
 }
 
@@ -119,7 +177,7 @@
     text-decoration: underline;
 }
 
-/* .boroughButtons {
+.boroughButtons {
     background: none;
     border: none;
-} */
+}
