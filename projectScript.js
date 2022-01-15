@@ -7,19 +7,19 @@ const eximDetails = {
     },
     Cerbo: {
         text: "They brains scream at you, till you cry!",
-        image: ""
+        image: "(/assets/Cerbos.png)"
     },
     Kin: {
         text: "They heavy, you heavy and we all fall up!",
-        image: ""
+        image: "(/assets/Kin.png)"
     },
     Protean: {
         text: "That's no bat that's Jamal with a RPG!",
-        image: ""
+        image: "(/assets/Proteans.png)"
     },
     Quark: {
         text: "AVATAR Mutha FUGDER!",
-        image: ""
+        image: "(/assets/Quarks.png)"
     }
 }
 
