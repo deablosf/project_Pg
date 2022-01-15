@@ -2,24 +2,24 @@ const eximList = ["Amalgom", "Cerbo", "Kin", "Protean", "Quark"]
 
 const eximDetails = {
     Amalgom: {
-        text: "They got all the flavors but a stranger!",
-        image: "(/assets/Amalgoms.jpg)"
+        text: "They got all the flavors but a crazy straw!",
+        image: "url('./assets/Amalgoms.jpg')"
     },
     Cerbo: {
-        text: "They brains scream at you, till you cry!",
-        image: "(/assets/Cerbos.png)"
+        text: "Their brains scream at you, till you cry!",
+        image: "url('./assets/Cerbos.png')"
     },
     Kin: {
         text: "They heavy, you heavy and we all fall up!",
-        image: "(/assets/Kin.png)"
+        image: "url('./assets/Kin.png')"
     },
     Protean: {
         text: "That's no bat that's Jamal with a RPG!",
-        image: "(/assets/Proteans.png)"
+        image: "url('./assets/Proteans.png')"
     },
     Quark: {
         text: "AVATAR Mutha FUGDER!",
-        image: "(/assets/Quarks.png)"
+        image: "url('./assets/Quarks.png')"
     }
 }
 
