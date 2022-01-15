@@ -1,11 +1,26 @@
 const eximList = ["Amalgom", "Cerbo", "Kin", "Protean", "Quark"]
 
 const eximDetails = {
-    Amalgom: "They got all the flavors but a stranger!",
-    Cerbo: "They brains scream at you, till you cry!",
-    Kin: "They heavy, you heavy and we all fall up!",
-    Protean: "That's no bat that's Jamal with a RPG!",
-    Quark: "AVATAR Mutha FUGDER!"
+    Amalgom: {
+        text: "They got all the flavors but a stranger!",
+        image: ""
+    },
+    Cerbo: {
+        text: "They brains scream at you, till you cry!",
+        image: ""
+    },
+    Kin: {
+        text: "They heavy, you heavy and we all fall up!",
+        image: ""
+    },
+    Protean: {
+        text: "That's no bat that's Jamal with a RPG!",
+        image: ""
+    },
+    Quark: {
+        text: "AVATAR Mutha FUGDER!",
+        image: ""
+    }
 }
 
 const boroughList = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten"]
@@ -24,7 +39,7 @@ const eximClassHtml = document.getElementById('eximButtonsWrap');
 const theCityImHtml = document.getElementById('theCityIm');
 
 const eximDetschanger = (z) => {
-    eximDetailsHtml.innerText = eximDetails[z]
+    eximDetailsHtml.innerText = eximDetails[z].text
  };
 
 const boroughDetsHtml = (z) => {

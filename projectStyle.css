@@ -43,6 +43,10 @@
     justify-content: space-around;
 }
 
+#eximDetails {
+    font-size: 18px;
+}
+
 #theCityIm {
     background: url(/assets/5_Boroughs_Labels_New_York_City_Map_Julius_Schorzman.png);
     background-size: 500px 500px;

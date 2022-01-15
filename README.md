@@ -16,7 +16,7 @@ SECTION 2 THe World
 
 
 SECTION 3 You
-Will now build the functions to allow the visitors to click and see the differnt classifications and later on the powers.
+Will now build the functions to allow the visitors to click and see the differnt classifications and later on the powers. Will now add images to the details
 
 SECTION 4: The City
-Will now build the functions to allow the visitors to click and see the differnt Boroughs and later on important NPCs in those boroughs. map
+Will now build the functions to allow the visitors to click and see the differnt Boroughs and later on important NPCs in those boroughs. Borough clicking is done.
