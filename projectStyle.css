@@ -46,8 +46,7 @@
 }
 
 #eximButtonsWrap {
-    display: flex;
-    justify-content: space-around;
+    
 }
 
 #eximDetails {
@@ -161,9 +160,16 @@
 
 /* *********  CLASS SECTION  ************* */
 
+.chapterBuild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .chapterTitle {
+    width: 90vw;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
@@ -186,6 +192,8 @@
     font-weight: 600;
     font-size: 18px;
     text-decoration: underline;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .boroughButtons {
