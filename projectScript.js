@@ -41,6 +41,7 @@ const boroughDetailsHtml = document.getElementById('boroughDetails');
 
 
 const eximDetschanger = (z) => {
+    eximImageHtml.removeAttribute("style");
     eximDetailsHtml.innerText = eximDetails[z].text;
     eximImageHtml.style.backgroundImage = eximDetails[z].image;
  };
