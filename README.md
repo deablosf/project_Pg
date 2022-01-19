@@ -23,9 +23,9 @@ SECTION 4: The City
 Will now build the functions to allow the visitors to click and see the differnt Boroughs and later on important NPCs in those boroughs. Borough clicking is done.
 
 SECTION 5: The B+ System
-Power, Consequence and Agency through versitility - In the B+ System, we wanted a lot; we wanted players to Feel powerful, we wanted player's actions to matter and we wanted to Feel like our characters were part of the world they're in. in almost everything they do, even down to the dice you roll.
+Feel, Consequence and Agency through versitility - In the B+ System, we wanted a lot; we wanted players to Feel powerful, we wanted player's actions to matter and we wanted to Feel like our characters were part of the world they're in. in almost everything they do, even down to the dice you roll.
 Die-steps: (The stronger you get the larger value die you roll. Through exploits and other means you can temporially increase your trait's dice. )
-Practices: ()
+Practices: (Investing in knoweldge that can help your character in and out of combat. This added block allows the characters to interact with the world in more ways than just combat.)
 Combat: ()
 
 because you have more options than just punch obsticle in face your characters feel like a genuine part of the world. And GMs now have access to more obsticles than faces to fist.
