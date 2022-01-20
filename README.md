@@ -26,7 +26,8 @@ SECTION 5: The B+ System
 Feel, Consequence and Agency through versitility - In the B+ System, we wanted a lot; we wanted players to Feel powerful, we wanted player's actions to matter and we wanted to Feel like our characters were part of the world they're in. in almost everything they do, even down to the dice you roll.
 Die-steps: (The stronger you get the larger value die you roll. Through exploits and other means you can temporially increase your trait's dice. )
 Practices: (Investing in knoweldge that can help your character in and out of combat. This added block allows the characters to interact with the world in more ways than just combat.)
-Combat: (Physical Combat being based on fighting video games like Street fighter, MVC2 and rpgs like Xenogears and Legend of dragoon. With the forms and styles you can have your character fight the way you want them to fight. There no perfect combination just the combo that perfectly fits your character. )
+Combat: (Physical Combat being based on fighting video games like Street fighter, MVC2 and rpgs like Xenogears and Legend of dragoon. With the forms and styles you can have your character fight the way you want them to fight. There no perfect combination just the combo that perfectly fits your character. 
+Social brings in a new color to combat and a new breed of fighter, one that plays with your emotions and what your character believes.)
 
 because you have more options than just punch obsticle in face your characters feel like a genuine part of the world. And GMs now have access to more obsticles than faces to fist.
 Combat both physical and Social. 
