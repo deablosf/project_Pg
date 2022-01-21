@@ -26,11 +26,11 @@ const eximDetails = {
 const boroughList = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten"]
 
 const boroughDetails = {
-    Bronx: "It's burning Baby!",
-    Brooklyn: "It's Hipsters Baby!",
-    Manhattan: "It's Tourists Baby!",
-    Queens: "IT smells like something's cooking Baby",
-    Staten: "No ..."
+    Bronx: "It's burning Baby! The Bronx is in the hands of Fletcher & Welch armed forces. This UK based PMC has an answer to the recent mayhem that has taken grip of the northern borough, extreme Non-lethal Force. This was their answer to crime in the UK and in the words of the their CEO 'if it’s good enough for her majesty's kingdom, it will be good enough for a peninsula a fraction of the size'. F&W underestimated The Bronx, there rages a decade long civil war between Thirteen criminal warlords; these are the ex-generals of Ramesses, the abdicated Underworld Shogun of the Silk streets.",
+    Brooklyn: "It's Hipsters Baby! In Brooklyn information is power, and silence speaks volumes. 'I know something you don't know, I got something to tell you'; the ebb and flow of the most dangerous deals made in this borough. Info and Data brokers, overnight startups, the crypto-stock market, wise guys, double thinkers, and entrepreneurs stomp the pavement and search for the next leg up.",
+    Manhattan: "It's Tourists Baby! Bulldozing into the future with stationary and mobile camera drones placed all over the island, boasting Big Brother-esque 24/7 monitoring for its citizens, Manhattan stands tall. Additionally N.Y.C.A.R (New York City Augmented Reality) has revolutionized the blending of physical and digital space. (Why be you when you can be a you that's only tied down by the near limitless potential of this new blossoming technology. Go into a store and let NYCAR show you what you'd look like in this season's most daring attire. Restaurants with interactive menus and custom entertainment. You might be able to wear what you want but on the digital plain you can customize yourself, your belongings and the world around you. Take control, the power to change your life, behind rose tinted glass. -NYCAR) Now the people of Manhattan live two lives, but which one is worth living?",
+    Queens: "IT smells like something's cooking Baby! Queens is slowly being dragged into tomorrow by the Eden foundation and its affiliates. Foundation Funds or FF points (known as forbidden fruit) is the currency Eden is aggressively marketing to all residents and businesses in Queens. Thanks to the corporate restrictions lifted during the cold war, Queens has become a corporate playground with the people fighting to have their human rights outweigh Eden's corporate rights.",
+    Staten: "No ... Staten Island the prototype solution to overpopulation, active but still under construction, Megastructure Zero. When completed the structure will take up half the island and stand more than 30 stories tall. Residents, offices, factory space, parks, malls, supermarkets, stores of all kinds, an indoor harbor, and much more will be within reach once the construction has completed."
 }
 
 const eximClassHtml = document.getElementById('eximButtonsWrap');
