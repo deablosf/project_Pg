@@ -6,19 +6,19 @@ const eximDetails = {
         image: "url('./assets/Amalgoms.jpg')"
     },
     Cerbo: {
-        text: "Their brains scream at you, till you cry!",
+        text: "Their brains scream at you, till you cry! Powers: Telepathy, Mind Control, Telekinesis, Force Field, Mind Blast",
         image: "url('./assets/Cerbos.png')"
     },
     Kin: {
-        text: "They heavy, you heavy and we all fall up!",
+        text: "They heavy, you heavy and we all fall up! Powers: Absorption, Density Manipulation, Native Elemental Control, Super Speed",
         image: "url('./assets/Kin.png')"
     },
     Protean: {
-        text: "That's no bat that's Jamal with a RPG!",
+        text: "That's no bat that's Jamal with a RPG! Powers: Animal Transformation, Body Adaptation, Boost, Natural Weaponry, True Flight",
         image: "url('./assets/Proteans.png')"
     },
     Quark: {
-        text: "AVATAR Mutha FUGDER!",
+        text: "AVATAR Mutha FUGDER! Power: Absorption, Boost, Native Element Control, Super Speed",
         image: "url('./assets/Quarks.png')"
     }
 }

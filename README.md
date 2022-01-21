@@ -17,7 +17,7 @@ SECTION 2: The World
 
 
 SECTION 3: You
-Will now build the functions to allow the visitors to click and see the differnt classifications and later on the powers. Will now add images to the details
+Will now build the functions to allow the visitors to click and see the differnt classifications and later on the powers. Will now add images to the details. Place holder images are in place for the exim.
 
 SECTION 4: The City
 Will now build the functions to allow the visitors to click and see the differnt Boroughs and later on important NPCs in those boroughs. Borough clicking is done.
@@ -28,7 +28,7 @@ DIE-STEPS: (The stronger you get the larger value die you roll. Through exploits
 Practices: (Investing in knoweldge that can help your character in and out of combat. This added block allows the characters to interact with the world in more ways than just combat.)
 COMBAT: (Physical Combat being based on fighting video games like Street Fighter, MVC2 and rpgs like Xenogears and Legend of Dragoon. With the forms and styles you can have your character fight the way you want them to fight. There is no perfect combination to victory but the combination that perfectly fits your character is. 
 Social brings in a different view to combat and a new breed of fighter, one that plays with emotions and what a character believes. Appealing to a characters better or worse natures, convincing them that everything they think matters doesn't, putting foes on a rollercoaster of terror and lust and so much more. This added with the Styles and forms mechanics turns a simple back and forth of words into a dual with tongues sharper than any double edge sword.)
-POWERS:
+POWERS: (These are powers in all sense of the word. Built specifically for Powerpunk to give the Feel of Power.)
 
 because you have more options than just punch obsticle in face your characters feel like a genuine part of the world. And GMs now have access to more obsticles than faces to fist.
 Combat both physical and Social. 
