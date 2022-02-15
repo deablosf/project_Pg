@@ -53,7 +53,7 @@
 }
 
 #theCityIm {
-    background: url(/assets/5_Boroughs_Labels_New_York_City_Map_Julius_Schorzman.png);
+    background: url(./assets/5Boroughs.png);
     background-size: 500px 500px;
     height: 500px;
     width: 500px;
