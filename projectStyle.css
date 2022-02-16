@@ -73,6 +73,30 @@
     background-position: 50% 15%;
 }
 
+.theCityImBroo {
+    background: url(./assets/5_Boroughs_Schorzman.png);
+    background-size: 1050px 1050px;
+    background-position: 59% 72%;
+}
+
+.theCityImBron {
+    background: url(./assets/5_Boroughs_Schorzman.png);
+    background-size: 1050px 1050px;
+    background-position: 85% 0%;
+}
+
+.theCityImQuee {
+    background: url(./assets/5_Boroughs_Schorzman.png);
+    background-size: 800px 800px;
+    background-position: 99% 69%;
+}
+
+.theCityImStat {
+    background: url(./assets/5_Boroughs_Schorzman.png);
+    background-size: 1050px 1050px;
+    background-position: 01% 99%;
+}
+
 #bronx {
     grid-column: 7;
     grid-row: 1;

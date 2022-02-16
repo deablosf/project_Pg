@@ -50,8 +50,7 @@ const eximDetschanger = (z) => {
     eximImageHtml.style.backgroundImage = eximDetails[z].image;
  };
 
-const boroughDetsHtml = (z) => {
-    boroughDetailsHtml.innerText = boroughDetails[z]
+ const invisibleButton = () => {
     if (setState.boroughDet == 1) {
         document.getElementById("bronx").style.display="none";
         document.getElementById("brooklyn1").style.display="none";
@@ -59,8 +58,6 @@ const boroughDetsHtml = (z) => {
         document.getElementById("staten1").style.display="none";
         document.getElementById("manhattan1").style.display="none";
         theCityImHtml.classList.remove("theCityImNorm");
-        theCityImHtml.classList.add("theCityImManh");
-        setState.boroughDet = 2
     } else {
         document.getElementById("bronx").removeAttribute("style");
         document.getElementById("brooklyn1").removeAttribute("style");
@@ -68,8 +65,33 @@ const boroughDetsHtml = (z) => {
         document.getElementById("staten1").removeAttribute("style");
         document.getElementById("manhattan1").removeAttribute("style");
         theCityImHtml.classList.remove("theCityImManh");
+        theCityImHtml.classList.remove("theCityImBroo");
+        theCityImHtml.classList.remove("theCityImBron");
+        theCityImHtml.classList.remove("theCityImQuee");
+        theCityImHtml.classList.remove("theCityImStat");
         theCityImHtml.classList.add("theCityImNorm");
         setState.boroughDet = 1
+    }
+ }
+
+const boroughDetsHtml = (z) => {
+    boroughDetailsHtml.innerText = boroughDetails[z]
+    if (setState.boroughDet == 1) {
+        invisibleButton()
+        if (z == "Manhattan") {
+            theCityImHtml.classList.add("theCityImManh");
+        } else if (z == "Brooklyn") {
+            theCityImHtml.classList.add("theCityImBroo");
+        } else if (z == "Bronx") {
+            theCityImHtml.classList.add("theCityImBron");
+        } else if (z == "Queens") {
+            theCityImHtml.classList.add("theCityImQuee");
+        } else if (z == "Staten") {
+            theCityImHtml.classList.add("theCityImStat");
+        }
+        setState.boroughDet = 2
+    } else {
+        invisibleButton()
     }
     
 };
