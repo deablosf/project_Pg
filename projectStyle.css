@@ -53,13 +53,24 @@
 }
 
 #theCityIm {
-    background: url(./assets/5Boroughs.png);
-    background-size: 500px 500px;
+    /* background: url(./assets/5_Boroughs_Schorzman.png); */
+    /* background-size: 500px 500px; */
     height: 500px;
     width: 500px;
     display: grid;
     grid-auto-columns: 10%;
     grid-auto-rows: 10%;
+}
+
+.theCityImNorm {
+    background: url(./assets/5_Boroughs_Schorzman.png);
+    background-size: 500px 500px;
+}
+
+.theCityImManh {
+    background: url(./assets/5_Boroughs_Schorzman.png);
+    background-size: 1050px 1050px;
+    background-position: 50% 15%;
 }
 
 #bronx {
@@ -205,8 +216,19 @@
 .boroughButtons {
     background: none;
     border: none;
+    font-weight: 800;
+    color: darkgray;
 }
 
 
 
 /* *********  ANIMATION SECTION  ************* */
+
+.zoomIn {
+    animation-duration: 3s;
+    animation-name: zoomed;
+}
+
+@keyframes zoomed {
+
+}

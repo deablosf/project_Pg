@@ -25,6 +25,10 @@ const eximDetails = {
 
 const boroughList = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten"]
 
+let setState = {
+    boroughDet: 1
+}
+
 const boroughDetails = {
     Bronx: "It's burning Baby! The Bronx is in the hands of Fletcher & Welch armed forces. This UK based PMC has an answer to the recent mayhem that has taken grip of the northern borough, extreme Non-lethal Force. This was their answer to crime in the UK and in the words of the their CEO 'if it’s good enough for her majesty's kingdom, it will be good enough for a peninsula a fraction of the size'. F&W underestimated The Bronx, there rages a decade long civil war between Thirteen criminal warlords; these are the ex-generals of Ramesses, the abdicated Underworld Shogun of the Silk streets.",
     Brooklyn: "It's Hipsters Baby! In Brooklyn information is power, and silence speaks volumes. 'I know something you don't know, I got something to tell you'; the ebb and flow of the most dangerous deals made in this borough. Info and Data brokers, overnight startups, the crypto-stock market, wise guys, double thinkers, and entrepreneurs stomp the pavement and search for the next leg up.",
@@ -48,9 +52,30 @@ const eximDetschanger = (z) => {
 
 const boroughDetsHtml = (z) => {
     boroughDetailsHtml.innerText = boroughDetails[z]
+    if (setState.boroughDet == 1) {
+        document.getElementById("bronx").style.display="none";
+        document.getElementById("brooklyn1").style.display="none";
+        document.getElementById("queens2").style.display="none";
+        document.getElementById("staten1").style.display="none";
+        document.getElementById("manhattan1").style.display="none";
+        theCityImHtml.classList.remove("theCityImNorm");
+        theCityImHtml.classList.add("theCityImManh");
+        setState.boroughDet = 2
+    } else {
+        document.getElementById("bronx").removeAttribute("style");
+        document.getElementById("brooklyn1").removeAttribute("style");
+        document.getElementById("queens2").removeAttribute("style");
+        document.getElementById("staten1").removeAttribute("style");
+        document.getElementById("manhattan1").removeAttribute("style");
+        theCityImHtml.classList.remove("theCityImManh");
+        theCityImHtml.classList.add("theCityImNorm");
+        setState.boroughDet = 1
+    }
+    
 };
 
 let classification = () => {
+    theCityImHtml.classList.add("theCityImNorm");
     eximClassHtml.innerHTML = eximList.map(classi => 
         '<button class="eximbuttons" onclick="eximDetschanger(' + `'${classi}'` + ')">' + classi.replace(/_/g, ' ') + '</button>'
         ).join('');
