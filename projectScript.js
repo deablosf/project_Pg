@@ -81,19 +81,35 @@ const boroughDetsHtml = (z) => {
     if (setState.boroughDet == 1) {
         invisibleButton()
         if (z == "Manhattan") {
-            theCityImHtml.classList.add("zoomIn");
+            theCityImHtml.classList.add("zoomInMan");
             setTimeout(() => {
                 theCityImHtml.classList.add("theCityImManh");
-                theCityImHtml.classList.remove("zoomIn");
+                theCityImHtml.classList.remove("zoomInMan");
             }, 2000);
         } else if (z == "Brooklyn") {
-            theCityImHtml.classList.add("theCityImBroo");
+            theCityImHtml.classList.add("zoomInBk");
+            setTimeout(() => {
+                theCityImHtml.classList.add("theCityImBroo");
+                theCityImHtml.classList.remove("zoomInBk");
+            }, 2000);
         } else if (z == "Bronx") {
-            theCityImHtml.classList.add("theCityImBron");
+            theCityImHtml.classList.add("zoomInBr");
+            setTimeout(() => {
+                theCityImHtml.classList.add("theCityImBron");
+                theCityImHtml.classList.remove("zoomInBr");
+            }, 2000);
         } else if (z == "Queens") {
-            theCityImHtml.classList.add("theCityImQuee");
+            theCityImHtml.classList.add("zoomInQ");
+            setTimeout(() => {
+                theCityImHtml.classList.add("theCityImQuee");
+                theCityImHtml.classList.remove("zoomInQ");
+            }, 2000);
         } else if (z == "Staten") {
-            theCityImHtml.classList.add("theCityImStat");
+            theCityImHtml.classList.add("zoomInS");
+            setTimeout(() => {
+                theCityImHtml.classList.add("theCityImStat");
+                theCityImHtml.classList.remove("zoomInS");
+            }, 2000);
         }
         setState.boroughDet = 2
     } else {

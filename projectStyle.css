@@ -261,19 +261,74 @@
 #backButt {
     background: none;
     border: none;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 /* *********  ANIMATION SECTION  ************* */
 
-.zoomIn {
-    animation: zoomed 2s ease;
+.zoomInMan {
+    animation: zoomedM 2s ease;
 }
 
-@keyframes zoomed {
+.zoomInQ {
+    animation: zoomedQ 2s ease;
+}
+
+.zoomInBx {
+    animation: zoomedBx 2s ease;
+}
+
+.zoomInBk {
+    animation: zoomedBk 2s ease;
+}
+
+.zoomInS {
+    animation: zoomedS 2s ease;
+}
+
+
+@keyframes zoomedM {
     0% {
         transform: scale(1, 1) translate(0%, 0%);
     }
     100% {
         transform: scale(2.1, 2.1) translate(0%, 18.42%);
+    }
+}
+
+@keyframes zoomedQ {
+    0% {
+        transform: scale(1, 1) translate(0%, 0%);
+    }
+    100% {
+        transform: scale(2.1, 2.1) translate(0%, 18.42%);
+    }
+}
+
+@keyframes zoomedBr {
+    0% {
+        transform: scale(1, 1) translate(0%, 0%);
+    }
+    100% {
+        transform: scale(2.1, 2.1) translate(60%, 5%);
+    }
+}
+
+@keyframes zoomedBk {
+    0% {
+        transform: scale(1, 1) translate(0%, 0%);
+    }
+    100% {
+        transform: scale(2.1, 2.1) translate(-4.7%, -11.5%);
+    }
+}
+
+@keyframes zoomedS {
+    0% {
+        transform: scale(1, 1) translate(0%, 0%);
+    }
+    100% {
+        transform: scale(2.1, 2.1) translate(25.64%, -25.66%);
     }
 }
