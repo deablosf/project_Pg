@@ -45,9 +45,6 @@
     color: crimson;
 }
 
-
-
-
 /* *********  CLASS SECTION  ************* */
 
 .chapterBuild {
@@ -75,8 +72,6 @@
 .summaryD {
     font-size: 18px;
 }
-
-
 
 /* ********** SECTION 3 ********** */
 
@@ -110,6 +105,12 @@
 
 /* ********** SECTION 4 ********** */
 
+#cityImWrap {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    overflow: hidden;
+}
 
 #theCityIm {
     /* background: url(./assets/5_Boroughs_Schorzman.png); */
@@ -261,10 +262,14 @@
 /* *********  ANIMATION SECTION  ************* */
 
 .zoomIn {
-    animation-duration: 3s;
-    animation-name: zoomed;
+    animation: zoomed 2s ease;
 }
 
 @keyframes zoomed {
-
+    0% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(2, 2);
+    }
 }

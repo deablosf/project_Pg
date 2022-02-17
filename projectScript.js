@@ -57,7 +57,9 @@ const eximDetschanger = (z) => {
         document.getElementById("queens2").style.display="none";
         document.getElementById("staten1").style.display="none";
         document.getElementById("manhattan1").style.display="none";
-        theCityImHtml.classList.remove("theCityImNorm");
+        setTimeout(() => {
+            theCityImHtml.classList.remove("theCityImNorm");
+        }, 2000);
     } else {
         document.getElementById("bronx").removeAttribute("style");
         document.getElementById("brooklyn1").removeAttribute("style");
@@ -79,7 +81,11 @@ const boroughDetsHtml = (z) => {
     if (setState.boroughDet == 1) {
         invisibleButton()
         if (z == "Manhattan") {
-            theCityImHtml.classList.add("theCityImManh");
+            theCityImHtml.classList.add("zoomIn");
+            setTimeout(() => {
+                theCityImHtml.classList.add("theCityImManh");
+                theCityImHtml.classList.remove("zoomIn");
+            }, 2000);
         } else if (z == "Brooklyn") {
             theCityImHtml.classList.add("theCityImBroo");
         } else if (z == "Bronx") {
