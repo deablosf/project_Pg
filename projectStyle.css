@@ -45,15 +45,7 @@
     color: crimson;
 }
 
-#eximIm {
-    width: 45vw;
-    height: 60vh;
-    background-size: 100% 100%;
-}
 
-#eximDetails {
-    font-size: 18px;
-}
 
 
 /* *********  CLASS SECTION  ************* */
@@ -84,6 +76,20 @@
     font-size: 18px;
 }
 
+
+
+/* ********** SECTION 3 ********** */
+
+#eximIm {
+    width: 45vw;
+    height: 60vh;
+    background-size: 100% 100%;
+}
+
+#eximDetails {
+    font-size: 18px;
+}
+
 .eximbuttons {
     border: none;
     background: none;
@@ -100,8 +106,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-/* ********** SECTION 3 ********** */
 
 
 /* ********** SECTION 4 ********** */
