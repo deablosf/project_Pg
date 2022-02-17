@@ -258,6 +258,10 @@
     color: darkgray;
 }
 
+#backButt {
+    background: none;
+    border: none;
+}
 
 /* *********  ANIMATION SECTION  ************* */
 
@@ -267,9 +271,9 @@
 
 @keyframes zoomed {
     0% {
-        transform: scale(1, 1);
+        transform: scale(1, 1) translate(0%, 0%);
     }
     100% {
-        transform: scale(2, 2);
+        transform: scale(2.1, 2.1) translate(0%, 18.42%);
     }
 }
