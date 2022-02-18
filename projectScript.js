@@ -59,8 +59,10 @@ const eximDetschanger = (z) => {
         document.getElementById("manhattan1").style.display="none";
         setTimeout(() => {
             theCityImHtml.classList.remove("theCityImNorm");
+            document.getElementById("backButt").removeAttribute("style")
         }, 2000);
     } else {
+        document.getElementById("backButt").style.display="none";
         document.getElementById("bronx").removeAttribute("style");
         document.getElementById("brooklyn1").removeAttribute("style");
         document.getElementById("queens2").removeAttribute("style");
