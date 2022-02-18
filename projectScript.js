@@ -93,10 +93,10 @@ const boroughDetsHtml = (z) => {
                 theCityImHtml.classList.remove("zoomInBk");
             }, 2000);
         } else if (z == "Bronx") {
-            theCityImHtml.classList.add("zoomInBr");
+            theCityImHtml.classList.add("zoomInBx");
             setTimeout(() => {
                 theCityImHtml.classList.add("theCityImBron");
-                theCityImHtml.classList.remove("zoomInBr");
+                theCityImHtml.classList.remove("zoomInBx");
             }, 2000);
         } else if (z == "Queens") {
             theCityImHtml.classList.add("zoomInQ");

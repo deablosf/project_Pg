@@ -302,16 +302,16 @@
         transform: scale(1, 1) translate(0%, 0%);
     }
     100% {
-        transform: scale(2.1, 2.1) translate(0%, 18.42%);
+        transform: scale(1.62, 1.62) translate(-18.2%, -7.3%);
     }
 }
 
-@keyframes zoomedBr {
+@keyframes zoomedBx {
     0% {
         transform: scale(1, 1) translate(0%, 0%);
     }
     100% {
-        transform: scale(2.1, 2.1) translate(60%, 5%);
+        transform: scale(2.1, 2.1) translate(-18.33%, 26.18%);
     }
 }
 
