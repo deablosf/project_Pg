@@ -75,6 +75,17 @@
 
 /* ********** SECTION 3 ********** */
 
+#eximWrapper {
+    height: 50vh;
+    width: auto;
+    display: flex;
+}
+
+#eximButtonsWrap {
+    display: flex;
+    flex-direction: column;
+}
+
 #eximIm {
     width: 45vw;
     height: 60vh;
@@ -91,8 +102,8 @@
     font-weight: 600;
     font-size: 18px;
     text-decoration: underline;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
 }
 
 .eximbuttons:hover {
